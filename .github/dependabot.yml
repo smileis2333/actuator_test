@@ -8,7 +8,9 @@ updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
+      timezone: Asia/Shanghai
       interval: "daily"
+      time: "15:48"
     ignore:
       - dependency-name: *
         update-types: ["version-update:semver-major"]
