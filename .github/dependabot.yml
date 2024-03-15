@@ -10,7 +10,7 @@ updates:
     schedule:
       timezone: Asia/Shanghai
       interval: "daily"
-      time: "15:48"
+      time: "15:50"
     ignore:
-      - dependency-name: *
+      - dependency-name: "*"
         update-types: ["version-update:semver-major"]
