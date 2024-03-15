@@ -5,9 +5,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: "github-actions" # See documentation for possible values
+  - package-ecosystem: "maven" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       timezone: Asia/Shanghai
       interval: "daily"
-      time: "15:58"
+      time: "16:03"
