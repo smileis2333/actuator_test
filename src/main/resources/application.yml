@@ -8,5 +8,5 @@ management:
       show-details: ALWAYS
 
   info:
-    java:
+    git:
       enabled: true
