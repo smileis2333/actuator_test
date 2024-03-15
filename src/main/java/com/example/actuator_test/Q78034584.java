@@ -10,7 +10,7 @@ public class Q78034584 {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.addMixIn(YearWeek.class, YearWeekMixIn1.class);
 
-        final Foo33 foo = objectMapper.readValue("{\"yearWeek\": \"2011-W01\"}", Foo33.class);
+        final Foo33 foo = objectMapper.readValue("{\"yearWeek\": \"2012-W01\"}", Foo33.class);
         System.out.println();
         System.out.println();
     }
